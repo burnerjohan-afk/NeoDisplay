@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Download, ArrowRight, Check } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
+import Image from 'next/image'
 import { ProjectData } from './ProjectWizard'
 
 type Step4Props = {
@@ -44,10 +45,11 @@ export default function Step4({ data }: Step4Props) {
       <div className="relative">
         <div className="relative aspect-video bg-primary-dark rounded-lg overflow-hidden border border-primary-light">
           {data.generatedImage && (
-            <img
+            <Image
               src={data.generatedImage}
               alt="Simulation générée"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
           )}
         </div>

@@ -20,7 +20,7 @@ export default function PolitiqueConfidentialitePage() {
               <h2 className="text-xl font-bold text-white mb-2">1. Collecte des données</h2>
               <p>
                 Nous collectons les données personnelles que vous nous fournissez volontairement lors de
-                l'utilisation de nos services, notamment via nos formulaires de contact et de demande de devis.
+                l&apos;utilisation de nos services, notamment via nos formulaires de contact et de demande de devis.
               </p>
             </div>
 
@@ -50,11 +50,11 @@ export default function PolitiqueConfidentialitePage() {
                 Conformément au RGPD, vous disposez des droits suivants :
               </p>
               <ul className="list-disc list-inside mt-2 space-y-1">
-                <li>Droit d'accès à vos données personnelles</li>
+                <li>Droit d&apos;accès à vos données personnelles</li>
                 <li>Droit de rectification</li>
-                <li>Droit à l'effacement</li>
+                <li>Droit à l&apos;effacement</li>
                 <li>Droit à la portabilité</li>
-                <li>Droit d'opposition</li>
+                <li>Droit d&apos;opposition</li>
               </ul>
               <p className="mt-2">
                 Pour exercer ces droits, contactez-nous à : contact@film-led-smartfilm.com
@@ -73,7 +73,7 @@ export default function PolitiqueConfidentialitePage() {
               <h2 className="text-xl font-bold text-white mb-2">6. Contact</h2>
               <p>
                 Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter
-                à l'adresse : contact@film-led-smartfilm.com
+                à l&apos;adresse : contact@film-led-smartfilm.com
               </p>
             </div>
           </div>

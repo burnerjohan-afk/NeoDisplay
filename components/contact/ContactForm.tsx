@@ -199,7 +199,7 @@ export default function ContactForm() {
                 {...register('spaceType')}
                 className="w-full px-4 py-3 bg-primary-dark border border-primary-light rounded-lg text-white focus:outline-none focus:border-neon-blue"
               >
-                <option value="">Sélectionnez un type d'espace</option>
+                <option value="">Sélectionnez un type d&apos;espace</option>
                 {spaceTypes.map((type) => (
                   <option key={type} value={type}>
                     {type}
@@ -235,7 +235,7 @@ export default function ContactForm() {
               className="mt-1 w-4 h-4 text-neon-blue bg-primary-dark border-primary-light rounded focus:ring-neon-blue"
             />
             <label htmlFor="consent" className="text-sm text-accent-gray">
-              J'accepte que mes données personnelles soient traitées conformément à la{' '}
+              J&apos;accepte que mes données personnelles soient traitées conformément à la{' '}
               <a href="/politique-confidentialite" className="text-neon-blue hover:underline">
                 politique de confidentialité
               </a>

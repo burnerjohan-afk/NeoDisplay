@@ -41,7 +41,7 @@ export default function FilmLedClientProcess() {
             <span className="gradient-text-film-led">Processus client</span>
           </h2>
           <p className="text-body-lg text-gray-medium max-w-2xl mx-auto">
-            Gestion simple et intuitive de votre Film LED via l'application dédiée
+            Gestion simple et intuitive de votre Film LED via l&apos;application dédiée
           </p>
         </motion.div>
 

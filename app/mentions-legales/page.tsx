@@ -40,16 +40,16 @@ export default function MentionsLegalesPage() {
             <div>
               <h2 className="text-xl font-bold text-white mb-2">Hébergement</h2>
               <p>
-                Ce site est hébergé par [Nom de l'hébergeur]
+                Ce site est hébergé par [Nom de l&apos;hébergeur]
                 <br />
-                Adresse : [Adresse de l'hébergeur]
+                Adresse : [Adresse de l&apos;hébergeur]
               </p>
             </div>
 
             <div>
               <h2 className="text-xl font-bold text-white mb-2">Propriété intellectuelle</h2>
               <p>
-                L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur
+                L&apos;ensemble de ce site relève de la législation française et internationale sur le droit d&apos;auteur
                 et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les
                 documents téléchargeables et les représentations iconographiques et photographiques.
               </p>
@@ -59,8 +59,8 @@ export default function MentionsLegalesPage() {
               <h2 className="text-xl font-bold text-white mb-2">Protection des données personnelles</h2>
               <p>
                 Conformément à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée et au Règlement
-                Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification,
-                de suppression et d'opposition aux données personnelles vous concernant.
+                Général sur la Protection des Données (RGPD), vous disposez d&apos;un droit d&apos;accès, de rectification,
+                de suppression et d&apos;opposition aux données personnelles vous concernant.
               </p>
             </div>
           </div>

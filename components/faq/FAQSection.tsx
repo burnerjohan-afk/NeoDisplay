@@ -71,7 +71,7 @@ export default function FAQSection({ categories, showCategories = true }: FAQSec
                         ? 'text-tech-blue bg-tech-blue/10'
                         : 'text-gray-medium hover:text-gray-light hover:bg-gray-dark/50'
                     }`}
-                    aria-pressed={selectedCategory === category.id}
+                    aria-selected={selectedCategory === category.id}
                     role="tab"
                   >
                     {category.title}

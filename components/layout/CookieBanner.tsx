@@ -52,7 +52,7 @@ export default function CookieBanner() {
                     >
                       politique de confidentialité
                     </Link>
-                    {' '}et l'utilisation de cookies.
+                    {' '}et l&apos;utilisation de cookies.
                   </p>
                 </div>
               </div>

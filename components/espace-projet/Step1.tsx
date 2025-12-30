@@ -60,14 +60,14 @@ export default function Step1({ data, updateData }: Step1Props) {
       </div>
 
       <div>
-        <h2 className="text-2xl font-bold text-white mb-2">Type d'espace</h2>
-        <p className="text-accent-gray mb-4">Sélectionnez le type d'espace concerné</p>
+        <h2 className="text-2xl font-bold text-white mb-2">Type d&apos;espace</h2>
+        <p className="text-accent-gray mb-4">Sélectionnez le type d&apos;espace concerné</p>
         <select
           value={data.spaceType}
           onChange={(e) => updateData({ spaceType: e.target.value })}
           className="w-full px-4 py-3 bg-primary-dark border border-primary-light rounded-lg text-white focus:outline-none focus:border-neon-blue"
         >
-          <option value="">Sélectionnez un type d'espace</option>
+          <option value="">Sélectionnez un type d&apos;espace</option>
           {spaceTypes.map((type) => (
             <option key={type} value={type}>
               {type}

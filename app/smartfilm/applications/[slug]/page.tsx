@@ -4,8 +4,9 @@ import { getSmartfilmApplicationBySlug, getAllSmartfilmApplications } from '@/li
 import SmartfilmApplicationDetailComponent from '@/components/smartfilm/ApplicationDetail'
 
 // Génération des métadonnées
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const application = getSmartfilmApplicationBySlug(params.slug)
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const application = getSmartfilmApplicationBySlug(slug)
   
   if (!application) {
     return {
@@ -28,8 +29,9 @@ export async function generateStaticParams() {
   }))
 }
 
-export default function SmartfilmApplicationDetailPage({ params }: { params: { slug: string } }) {
-  const application = getSmartfilmApplicationBySlug(params.slug)
+export default async function SmartfilmApplicationDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const application = getSmartfilmApplicationBySlug(slug)
 
   if (!application) {
     notFound()

@@ -4,8 +4,9 @@ import { getApplicationBySlug, getAllApplications } from '@/lib/applications'
 import ApplicationDetailComponent from '@/components/film-led/ApplicationDetail'
 
 // Génération des métadonnées
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const application = getApplicationBySlug(params.slug)
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const application = getApplicationBySlug(slug)
   
   if (!application) {
     return {
@@ -28,8 +29,9 @@ export async function generateStaticParams() {
   }))
 }
 
-export default function ApplicationDetailPage({ params }: { params: { slug: string } }) {
-  const application = getApplicationBySlug(params.slug)
+export default async function ApplicationDetailPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const application = getApplicationBySlug(slug)
 
   if (!application) {
     notFound()

@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata'
 import ContactForm from '@/components/contact/ContactForm'
 import { content } from '@/lib/content'
@@ -21,7 +22,9 @@ export default function ContactPage() {
               {content.contact.subtitle}
             </p>
           </div>
-          <ContactForm />
+          <Suspense fallback={<div className="text-center py-12 text-accent-gray">Chargement du formulaire...</div>}>
+            <ContactForm />
+          </Suspense>
         </div>
       </div>
     </section>

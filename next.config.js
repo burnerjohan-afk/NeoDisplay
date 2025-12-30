@@ -10,6 +10,8 @@ const nextConfig = {
     ],
     domains: ['localhost'],
     formats: ['image/avif', 'image/webp'],
+    unoptimized: false,
+    loader: 'default',
   },
 }
 

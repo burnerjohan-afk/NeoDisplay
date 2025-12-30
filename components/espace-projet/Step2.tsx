@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Upload, X } from 'lucide-react'
 import { ProjectData } from './ProjectWizard'
 import { useRef } from 'react'
+import Image from 'next/image'
 
 type Step2Props = {
   data: ProjectData
@@ -83,15 +84,17 @@ export default function Step2({ data, updateData }: Step2Props) {
           </div>
         ) : (
           <div className="relative">
-            <img
+            <Image
               src={data.imagePreview}
               alt="Aperçu"
+              width={800}
+              height={600}
               className="w-full h-auto rounded-lg border border-primary-light"
             />
             <button
               onClick={handleRemove}
               className="absolute top-4 right-4 p-2 bg-primary-dark/80 rounded-full hover:bg-primary-dark transition-colors"
-              aria-label="Supprimer l'image"
+              aria-label="Supprimer l&apos;image"
             >
               <X className="w-5 h-5 text-white" />
             </button>
@@ -102,7 +105,7 @@ export default function Step2({ data, updateData }: Step2Props) {
       <div className="bg-primary-dark rounded-lg p-4 border border-primary-light">
         <p className="text-sm text-accent-gray">
           <strong className="text-white">RGPD :</strong> En téléversant cette image, vous acceptez
-          qu'elle soit traitée par notre système IA pour générer la simulation. L'image sera
+          qu&apos;elle soit traitée par notre système IA pour générer la simulation. L&apos;image sera
           supprimée après traitement. Vous pouvez demander la suppression à tout moment.
         </p>
       </div>

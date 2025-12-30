@@ -22,7 +22,7 @@ export default function Step3({ data, updateData, onGenerate, isGenerating }: St
       <div>
         <h2 className="text-2xl font-bold text-white mb-2">Génération de la simulation</h2>
         <p className="text-accent-gray mb-6">
-          Cliquez sur le bouton ci-dessous pour générer la prévisualisation de votre projet avec l'IA
+          Cliquez sur le bouton ci-dessous pour générer la prévisualisation de votre projet avec l&apos;IA
         </p>
       </div>
 
@@ -37,7 +37,7 @@ export default function Step3({ data, updateData, onGenerate, isGenerating }: St
             </span>
           </div>
           <div className="flex items-center justify-between">
-            <span className="text-accent-gray">Type d'espace :</span>
+            <span className="text-accent-gray">Type d&apos;espace :</span>
             <span className="text-white font-semibold">{data.spaceType || 'Non spécifié'}</span>
           </div>
         </div>

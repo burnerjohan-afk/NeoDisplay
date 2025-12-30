@@ -24,7 +24,7 @@ export default function SmartfilmDemo() {
         >
           <div className="text-center mb-16">
             <h2 className="text-h1 md:text-[56px] font-display font-semibold mb-6 text-gray-light">
-              Découvrez l'effet en direct
+              Découvrez l&apos;effet en direct
             </h2>
             <p className="text-body text-gray-medium max-w-2xl mx-auto">
               Cliquez sur le bouton de la télécommande pour voir la transformation instantanée
@@ -242,7 +242,7 @@ export default function SmartfilmDemo() {
                 {/* Légende */}
                 <div className="text-center lg:text-left max-w-[224px]">
                   <p className="text-body-sm text-gray-medium">
-                    Contrôle instantané de l'intimité avec une simple pression
+                    Contrôle instantané de l&apos;intimité avec une simple pression
                   </p>
                 </div>
               </motion.div>
