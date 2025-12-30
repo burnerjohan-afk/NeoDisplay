@@ -1,0 +1,47 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2F8FFF" stop-opacity="1" />
+      <stop offset="50%" stop-color="#22E3D5" stop-opacity="1" />
+      <stop offset="100%" stop-color="#2F8FFF" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Barre verticale gauche -->
+  <path
+    d="M20 20 L20 100 Q20 100 30 100 L35 95 L35 25 Q35 25 30 25 L25 25 Z"
+    fill="url(#logoGradient)"
+    filter="url(#glow)"
+  />
+
+  <!-- Barre diagonale (la plus lumineuse) -->
+  <path
+    d="M25 25 L95 95 L105 85 L35 15 Z"
+    fill="url(#logoGradient)"
+    filter="url(#glow)"
+    opacity="1"
+  />
+
+  <!-- Barre verticale droite -->
+  <path
+    d="M100 20 L100 100 Q100 100 90 100 L85 95 L85 25 Q85 25 90 25 L95 25 Z"
+    fill="url(#logoGradient)"
+    filter="url(#glow)"
+  />
+
+  <!-- Pointe diagonale (extrémité lumineuse) -->
+  <path
+    d="M95 15 L105 25 L105 20 L100 15 Z"
+    fill="#22E3D5"
+    filter="url(#glow)"
+    opacity="0.9"
+  />
+</svg>
+

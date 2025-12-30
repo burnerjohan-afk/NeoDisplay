@@ -1,0 +1,95 @@
+===============================================
+  IMAGES À AJOUTER POUR LE SITE WEB
+===============================================
+
+Placez toutes ces images dans le dossier : public/images/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMAGES PRINCIPALES (OBLIGATOIRES)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. film-led-hero.jpg
+   📏 Taille recommandée : 1200x600px (ratio 2:1)
+   📍 Utilisée dans : Page d'accueil - Section Solutions
+   💡 Type : Photo d'une installation Film LED réelle
+   ⚠️  IMPORTANT : Montre l'effet lumineux réel
+
+2. smartfilm-hero.jpg
+   📏 Taille recommandée : 1200x600px (ratio 2:1)
+   📍 Utilisée dans : Page d'accueil - Section Solutions
+   💡 Type : Photo d'une installation Smartfilm réelle
+   ⚠️  IMPORTANT : Montre l'effet transparent/opaque
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMAGES DE RÉALISATIONS (RECOMMANDÉES)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. realisation-1.jpg
+   📏 Taille recommandée : 800x600px (ratio 4:3)
+   💡 Projet : Vitrine commerciale avec Film LED
+
+4. realisation-2.jpg
+   📏 Taille recommandée : 800x600px (ratio 4:3)
+   💡 Projet : Bureaux avec Smartfilm opacifiant
+
+5. realisation-3.jpg
+   📏 Taille recommandée : 800x600px (ratio 4:3)
+   💡 Projet : Panneau LED publicitaire
+
+6. realisation-4.jpg
+   📏 Taille recommandée : 800x600px (ratio 4:3)
+   💡 Projet : Cloison smartfilm modulaire
+
+7. realisation-5.jpg
+   📏 Taille recommandée : 800x600px (ratio 4:3)
+   💡 Projet : Installation LED incurvée
+
+8. realisation-6.jpg
+   📏 Taille recommandée : 800x600px (ratio 4:3)
+   💡 Projet : Façade multi-panneaux smartfilm
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMAGE PLACEHOLDER (OPTIONNELLE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+9. placeholder-simulation.jpg
+   📏 Taille recommandée : 800x600px
+   📍 Utilisée dans : Simulateur IA (en mode démo)
+   💡 Type : Image générique ou placeholder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONSEILS POUR VOS PHOTOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Format : JPG (ou WebP pour de meilleures performances)
+✅ Poids : < 500KB par image (compressez si nécessaire)
+✅ Qualité : Photos nettes, bien éclairées
+✅ Résolution : Haute résolution recommandée
+✅ Droits : Assurez-vous d'avoir les droits d'utilisation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESSOURCES POUR TROUVER DES PHOTOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 Unsplash : https://unsplash.com
+   Recherchez : "LED strip", "neon lights", "smart glass"
+
+📸 Pexels : https://www.pexels.com
+   Recherchez : "LED lighting", "commercial lighting"
+
+📸 Pixabay : https://pixabay.com
+   Recherchez : "LED", "neon", "smart glass"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPRESSION D'IMAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 TinyPNG : https://tinypng.com
+🔧 Squoosh : https://squoosh.app
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Une fois les images ajoutées, elles apparaîtront automatiquement sur le site !
+
+Pour plus de détails, consultez : public/images/README-IMAGES.md
+

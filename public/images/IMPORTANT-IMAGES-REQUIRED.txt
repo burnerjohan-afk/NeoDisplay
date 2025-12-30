@@ -1,0 +1,47 @@
+═══════════════════════════════════════════════════════════════
+  ⚠️  IMAGES REQUISES POUR LA DÉMO SMARTFILM  ⚠️
+═══════════════════════════════════════════════════════════════
+
+Pour que la démonstration interactive fonctionne, vous DEVEZ placer
+2 images dans ce dossier (public/images/) avec les noms EXACTS suivants :
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📸 Image 1 : smartfilm-demo-transparent.jpg
+   → Salle de réunion avec VITRES TRANSPARENTES
+   → Vue extérieure visible à travers les vitres
+   → Smartfilm NON activé
+
+📸 Image 2 : smartfilm-demo-opaque.jpg
+   → Même salle de réunion avec VITRES OPACIFIÉES/FROSTED
+   → Vue extérieure masquée
+   → Smartfilm ACTIVÉ
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 EMPLACEMENT EXACT :
+
+   C:\film-led-smartfilm\public\images\smartfilm-demo-transparent.jpg
+   C:\film-led-smartfilm\public\images\smartfilm-demo-opaque.jpg
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ FORMAT RECOMMANDÉ :
+
+   • Format : JPG ou WebP
+   • Taille : 1200x900px (ratio 4:3)
+   • Poids : < 500KB par image
+   • Les deux images doivent être de la MÊME SCÈNE, prise sous le 
+     MÊME ANGLE pour une transition fluide
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚨 IMPORTANT :
+
+   • Les noms de fichiers doivent être EXACTEMENT comme indiqué
+   • Respectez la casse (minuscules)
+   • Placez les images directement dans public/images/
+   • Redémarrez le serveur après avoir ajouté les images
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+

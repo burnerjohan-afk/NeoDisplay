@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-work-sans: 'Work Sans', system-ui, sans-serif;
+  --font-poppins: 'Poppins', system-ui, sans-serif;
+  --font-jetbrains: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter);
+  background: linear-gradient(135deg, #0B0F14 0%, #0F1621 60%, #0B0F14 100%);
+  background-color: #0B0F14;
+  color: #E6E8EC;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Gradients texte */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-tech-blue via-smartfilm-turquoise to-tech-blue;
+  }
+  
+  .gradient-text-film-led {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-tech-blue to-tech-blue/80;
+  }
+  
+  .gradient-text-smartfilm {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-smartfilm-turquoise to-smartfilm-turquoise/80;
+  }
+  
+  /* Effets glow */
+  .glow-effect-blue {
+    box-shadow: 0 0 20px rgba(47, 143, 255, 0.4);
+  }
+  
+  .glow-effect-turquoise {
+    box-shadow: 0 0 20px rgba(34, 227, 213, 0.4);
+  }
+  
+  .glow-effect-blue-light {
+    box-shadow: 0 0 20px rgba(47, 143, 255, 0.2);
+  }
+  
+  .glow-effect-turquoise-light {
+    box-shadow: 0 0 20px rgba(34, 227, 213, 0.2);
+  }
+  
+  /* Glassmorphism */
+  .glass {
+    background: rgba(26, 31, 38, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(230, 232, 236, 0.1);
+  }
+  
+  .glass-film-led {
+    background: rgba(47, 143, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(47, 143, 255, 0.2);
+  }
+  
+  .glass-smartfilm {
+    background: rgba(34, 227, 213, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(34, 227, 213, 0.2);
+  }
+  
+  /* Sections */
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Boutons CTA */
+  .btn-primary {
+    @apply bg-tech-blue text-white px-6 py-3 rounded-lg font-medium transition-all duration-300;
+    @apply hover:bg-tech-blue/90 hover:shadow-glow-blue hover:scale-[1.02];
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border-2 border-tech-blue text-tech-blue px-6 py-3 rounded-lg font-medium transition-all duration-300;
+    @apply hover:bg-tech-blue/10 hover:shadow-glow-blue;
+  }
+  
+  .btn-smartfilm {
+    @apply bg-smartfilm-turquoise text-white px-6 py-3 rounded-lg font-medium transition-all duration-300;
+    @apply hover:bg-smartfilm-turquoise/90 hover:shadow-glow-turquoise hover:scale-[1.02];
+  }
+  
+  /* Cards */
+  .card-premium {
+    @apply bg-gray-dark/50 backdrop-blur-sm border border-gray-medium/20 rounded-xl p-6;
+    @apply transition-all duration-300 hover:border-tech-blue/30 hover:shadow-lg;
+  }
+  
+  .card-film-led {
+    @apply card-premium border-tech-blue/20;
+    @apply hover:border-tech-blue/40;
+  }
+  
+  .card-film-led:hover {
+    box-shadow: 0 0 20px rgba(47, 143, 255, 0.2);
+  }
+  
+  .card-smartfilm {
+    @apply card-premium border-smartfilm-turquoise/20;
+    @apply hover:border-smartfilm-turquoise/40;
+  }
+  
+  .card-smartfilm:hover {
+    box-shadow: 0 0 20px rgba(34, 227, 213, 0.2);
+  }
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0F14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A1F26;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2F8FFF;
+}
+
+/* Sélection de texte */
+::selection {
+  background: rgba(47, 143, 255, 0.3);
+  color: #E6E8EC;
+}
+
